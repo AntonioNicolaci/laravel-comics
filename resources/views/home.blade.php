@@ -52,8 +52,62 @@
             DC POWER VISA
         </div>
     </div>
-    
-
+    <footer>
+        <div id="mainFooter">
+            <div id="linkFooter">
+                <div>
+                    <h3>DC COMICS</h3>
+                    <a href="#">Characters</a>
+                    <a href="#">Comics</a>
+                    <a href="#">Movie</a>
+                    <a href="#">TV</a>
+                    <a href="#">Games</a>
+                    <a href="#">Videos</a>
+                    <a href="#">News</a>
+                </div>
+                <div>
+                    <h3>SHOP</h3>
+                    <a href="#">Shop DC</a>
+                    <a href="#">Shop DC collectibles</a>
+                </div>
+                <div>
+                    <h3>DC</h3>
+                    <a href="#">Terms Of Use</a>
+                    <a href="#">Privacy policy (New)</a>
+                    <a href="#">Ad Choices</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Subscriptions</a>
+                    <a href="#">Talent Workshops</a>
+                    <a href="#">CPSC Certificates</a>
+                    <a href="#">Ratings</a>
+                    <a href="#">Shop Help</a>
+                    <a href="#">Contact US</a>
+                </div>
+                <div>
+                    <h3>SITES</h3>
+                    <a href="#">DC</a>
+                    <a href="#">MAD Magazine</a>
+                    <a href="#">DC Kids</a>
+                    <a href="#">DC Universe</a>
+                    <a href="#">DC Power Visa</a>
+                </div>
+            </div>
+            <img src="/resources/img/dc-logo-bg.png" alt="DC_logo">
+        </div>
+            
+        <div id="signUp">
+            <a href="#">SIGN-UP</a>
+            <div>
+                <span>FOLLOW US</span>
+                <img src="{{ Vite::asset('/resources/img/footer-facebook.png') }}" alt="facebook">
+                <img src="{{ Vite::asset('/resources/img/footer-twitter.png') }}" alt="twitter">
+                <img src="{{ Vite::asset('/resources/img/footer-youtube.png') }}" alt="youtube">
+                <img src="{{ Vite::asset('/resources/img/footer-pinterest.png') }}" alt="pinteret">
+                <img src="{{ Vite::asset('/resources/img/footer-periscope.png') }}" alt="periscope">
+            </div>
+        </div>
+    </footer> 
 </body>
 
 </html>
