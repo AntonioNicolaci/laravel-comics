@@ -1,0 +1,20 @@
+#linkBar{
+    background-color: #0282F9;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2em;
+
+    & div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5em;
+    }
+
+    & img {
+        width: 25%;
+        height: auto;
+    }
+}
