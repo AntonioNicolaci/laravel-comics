@@ -1,1 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./partials/_header.scss";
+@import "./partials/btnHeader";
+@import "./partials/main";
+@import "./partials/linkBar";
+
+a {
+    text-decoration: none;
+}
